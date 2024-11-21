@@ -111,6 +111,7 @@
     <Content Include="CrearPedido.aspx" />
     <Content Include="CrearUsuario.aspx" />
     <Content Include="Default.aspx" />
+    <None Include="Dockerfile" />
     <Content Include="EditarSuplemento.aspx" />
     <Content Include="imagenes\img-pedido.jpg" />
     <Content Include="imagenes\img1.jpg" />
