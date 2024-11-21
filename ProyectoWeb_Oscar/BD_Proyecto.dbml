@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BD_PROYECTO_WEB" Class="BD_ProyectoDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.;Initial Catalog=BD_PROYECTO_WEB;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="BD_PROYECTO_WEBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.DETALLE_PEDIDOS" Member="DETALLE_PEDIDOS">
+    <Type Name="DETALLE_PEDIDOS">
+      <Column Name="ID_DETALLE_PEDIDO" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ID_PEDIDO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ID_SUPLEMENTO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CANTIDAD_SOLICITADA" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="PEDIDOS_DETALLE_PEDIDOS" Member="PEDIDOS" ThisKey="ID_PEDIDO" OtherKey="ID_PEDIDO" Type="PEDIDOS" IsForeignKey="true" />
+      <Association Name="SUPLEMENTOS_DETALLE_PEDIDOS" Member="SUPLEMENTOS" ThisKey="ID_SUPLEMENTO" OtherKey="ID_SUPLEMENTO" Type="SUPLEMENTOS" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PEDIDOS" Member="PEDIDOS">
+    <Type Name="PEDIDOS">
+      <Column Name="ID_PEDIDO" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ID_USUARIO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FECHA_PEDIDO" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="ESTADO" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="PEDIDOS_DETALLE_PEDIDOS" Member="DETALLE_PEDIDOS" ThisKey="ID_PEDIDO" OtherKey="ID_PEDIDO" Type="DETALLE_PEDIDOS" />
+      <Association Name="USUARIOS_PEDIDOS" Member="USUARIOS" ThisKey="ID_USUARIO" OtherKey="ID_USUARIO" Type="USUARIOS" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SUPLEMENTOS_CATEGORIAS" Member="SUPLEMENTOS_CATEGORIAS">
+    <Type Name="SUPLEMENTOS_CATEGORIAS">
+      <Column Name="ID_SUPLEMENTO" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ID_CATEGORIA" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="CATEGORIAS_SUPLEMENTOS_CATEGORIAS" Member="CATEGORIAS" ThisKey="ID_CATEGORIA" OtherKey="ID_CATEGORIA" Type="CATEGORIAS" IsForeignKey="true" />
+      <Association Name="SUPLEMENTOS_SUPLEMENTOS_CATEGORIAS" Member="SUPLEMENTOS" ThisKey="ID_SUPLEMENTO" OtherKey="ID_SUPLEMENTO" Type="SUPLEMENTOS" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.USUARIOS" Member="USUARIOS">
+    <Type Name="USUARIOS">
+      <Column Name="ID_USUARIO" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NOMBRE" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CORREO" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CONTRASEÑA" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="USUARIOS_PEDIDOS" Member="PEDIDOS" ThisKey="ID_USUARIO" OtherKey="ID_USUARIO" Type="PEDIDOS" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CATEGORIAS" Member="CATEGORIAS">
+    <Type Name="CATEGORIAS">
+      <Column Name="ID_CATEGORIA" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NOMBRE" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="CATEGORIAS_SUPLEMENTOS_CATEGORIAS" Member="SUPLEMENTOS_CATEGORIAS" ThisKey="ID_CATEGORIA" OtherKey="ID_CATEGORIA" Type="SUPLEMENTOS_CATEGORIAS" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SUPLEMENTOS" Member="SUPLEMENTOS">
+    <Type Name="SUPLEMENTOS">
+      <Column Name="ID_SUPLEMENTO" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NOMBRE" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DESCRIPCION" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="PRECIO" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="CANTIDAD" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="RUTA_IMAGEN" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Association Name="SUPLEMENTOS_DETALLE_PEDIDOS" Member="DETALLE_PEDIDOS" ThisKey="ID_SUPLEMENTO" OtherKey="ID_SUPLEMENTO" Type="DETALLE_PEDIDOS" />
+      <Association Name="SUPLEMENTOS_SUPLEMENTOS_CATEGORIAS" Member="SUPLEMENTOS_CATEGORIAS" ThisKey="ID_SUPLEMENTO" OtherKey="ID_SUPLEMENTO" Type="SUPLEMENTOS_CATEGORIAS" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VistaSuplementos" Member="VistaSuplementos">
+    <Type Name="VistaSuplementos">
+      <Column Name="ID_SUPLEMENTO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="NOMBRE" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DESCRIPCION" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="PRECIO" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="CANTIDAD" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="NombreCategoria" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="RUTA_IMAGEN" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.SP_AGREGAR_PRODUCTO_PEDIDO" Method="SP_AGREGAR_PRODUCTO_PEDIDO">
+    <Parameter Name="idPedido" Type="System.Int32" DbType="Int" />
+    <Parameter Name="idSuplemento" Type="System.Int32" DbType="Int" />
+    <Parameter Name="cantidad" Type="System.Int32" DbType="Int" />
+    <Parameter Name="MSJ" Parameter="mSJ" Type="System.String" DbType="VarChar(50)" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_EDITAR_USUARIO" Method="SP_EDITAR_USUARIO">
+    <Parameter Name="ID" Parameter="iD" Type="System.Int32" DbType="Int" />
+    <Parameter Name="NOMBRE" Parameter="nOMBRE" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="CORREO" Parameter="cORREO" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="CONTRASEÑA" Parameter="cONTRASEÑA" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="MSJ" Parameter="mSJ" Type="System.String" DbType="VarChar(50)" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_PEDIDO_ENVIADO" Method="SP_PEDIDO_ENVIADO">
+    <Parameter Name="idPedido" Type="System.Int32" DbType="Int" />
+    <Parameter Name="MSJ" Parameter="mSJ" Type="System.String" DbType="VarChar(50)" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_AGREGAR_CATEGORIA" Method="SP_AGREGAR_CATEGORIA">
+    <Parameter Name="NOMBRE" Parameter="nOMBRE" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="MSJ" Parameter="mSJ" Type="System.String" DbType="VarChar(50)" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_AGREGAR_USUARIO" Method="SP_AGREGAR_USUARIO">
+    <Parameter Name="NOMBRE" Parameter="nOMBRE" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="CORREO" Parameter="cORREO" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="CONTRASEÑA" Parameter="cONTRASEÑA" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="MSJ" Parameter="mSJ" Type="System.String" DbType="VarChar(50)" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_AGREGAR_SUPLEMENTO" Method="SP_AGREGAR_SUPLEMENTO">
+    <Parameter Name="CATEGORIA" Parameter="cATEGORIA" Type="System.Int32" DbType="Int" />
+    <Parameter Name="NOMBRE" Parameter="nOMBRE" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="DESCRIPCION" Parameter="dESCRIPCION" Type="System.String" DbType="VarChar(200)" />
+    <Parameter Name="PRECIO" Parameter="pRECIO" Type="System.Decimal" DbType="Money" />
+    <Parameter Name="CANTIDAD" Parameter="cANTIDAD" Type="System.Int32" DbType="Int" />
+    <Parameter Name="MSJ" Parameter="mSJ" Type="System.String" DbType="VarChar(50)" Direction="InOut" />
+    <Parameter Name="rutaImagen" Type="System.String" DbType="VarChar(200)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_EDITAR_SUPLEMENTO" Method="SP_EDITAR_SUPLEMENTO">
+    <Parameter Name="id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="NOMBRE" Parameter="nOMBRE" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="DESCRIPCION" Parameter="dESCRIPCION" Type="System.String" DbType="VarChar(200)" />
+    <Parameter Name="PRECIO" Parameter="pRECIO" Type="System.Decimal" DbType="Money" />
+    <Parameter Name="CANTIDAD" Parameter="cANTIDAD" Type="System.Int32" DbType="Int" />
+    <Parameter Name="MSJ" Parameter="mSJ" Type="System.String" DbType="VarChar(50)" Direction="InOut" />
+    <Parameter Name="ruta" Type="System.String" DbType="VarChar(200)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_CREAR_PEDIDO" Method="SP_CREAR_PEDIDO">
+    <Parameter Name="idUsuario" Type="System.Int32" DbType="Int" />
+    <Parameter Name="MSJ" Parameter="mSJ" Type="System.String" DbType="VarChar(50)" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_Eliminar_PRODUCTOS_PEDIDO" Method="SP_Eliminar_PRODUCTOS_PEDIDO">
+    <Parameter Name="idPedido" Type="System.Int32" DbType="Int" />
+    <Parameter Name="MSJ" Parameter="mSJ" Type="System.String" DbType="VarChar(50)" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_EDITAR_PEDIDO" Method="SP_EDITAR_PEDIDO">
+    <Parameter Name="idDetallePedido" Type="System.Int32" DbType="Int" />
+    <Parameter Name="idSuplemento" Type="System.Int32" DbType="Int" />
+    <Parameter Name="cantidad" Type="System.Int32" DbType="Int" />
+    <Parameter Name="MSJ" Parameter="mSJ" Type="System.String" DbType="VarChar(50)" Direction="InOut" />
+    <Parameter Name="retorno" Type="System.String" DbType="VarChar(1)" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

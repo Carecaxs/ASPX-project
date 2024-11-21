@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PaginaMaestra.master.cs" Inherits="ProyectoWeb_Oscar.PaginaMaestra" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="estilos.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <form id="form1" runat="server">
+    
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="Default.aspx">
+                        <img src="imagenes/favicon.ico" alt="Alternate Text" />
+                        MUNDO FIT
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="Usuarios.aspx">
+                                    <asp:Button ID="btnUsuarios" runat="server" Text="Usuarios" CssClass="btn-invisible" OnClick="btnUsuarios_Click" /></a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="enlacePedidos" class="nav-link active" aria-current="page" href="#">
+                                    <asp:Button ID="btnPedidos" runat="server" Text="Pedidos" CssClass="btn-invisible" OnClick="btnPedidos_Click"/></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" id="categoriasDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categorías</a>
+                                <ul class="dropdown-menu" aria-labelledby="categoriasDropdown">
+                                    <%--   Código para obtener las categorías de la base de datos--%>
+                                    <% foreach (var categoria in ObtenerCategoriasDesdeLaBaseDeDatos()) { %>
+                                    <li><a class="dropdown-item" href="#"><%= categoria.NOMBRE %></a></li>
+                                    <% } %>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="administradorDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Administrador
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="administradorDropdown">
+                                    <li><a class="dropdown-item" href="AgregarSuplemento.aspx">Agregar suplementos</a></li>
+                                    <li><a class="dropdown-item" href="EditarSuplemento.aspx">Modificar suplementos</a></li>
+                                    <li><a class="dropdown-item" href="AgregarCategorias.aspx">Agregar Categoría</a></li>
+
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="content">
+
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </form>
+    </main>
+
+
+    <footer>
+        <div class="contenedor_footer">
+            <div class="iconos">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-youtube"></i>
+
+            </div>
+            <p class="colorBlanco">© 2020 MundoFit. All rights reserved</p>
+        </div>
+    </footer>
+    <script src="JavaScript.js"></script>
+    <script src="Scripts/bootstrap.bundle.min.js"></script>
+</body>
+</html>

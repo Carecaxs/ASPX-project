@@ -1,0 +1,177 @@
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\ProyectoWeb_Oscar.dll.config
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\ProyectoWeb_Oscar.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\ProyectoWeb_Oscar.pdb
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\csc.exe
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\csc.exe.config
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\csc.rsp
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\csi.exe
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\csi.exe.config
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\csi.rsp
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.CodeAnalysis.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.CSharp.Core.targets
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.Managed.Core.targets
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.VisualBasic.Core.targets
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.Win32.Primitives.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.AppContext.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Collections.Immutable.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Console.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Diagnostics.StackTrace.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Globalization.Calendars.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.IO.Compression.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.IO.Compression.ZipFile.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.IO.FileSystem.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.IO.FileSystem.Primitives.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Net.Http.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Net.Sockets.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Reflection.Metadata.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Security.Cryptography.Encoding.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Security.Cryptography.Primitives.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Text.Encoding.CodePages.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Threading.Tasks.Extensions.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.ValueTuple.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Xml.ReaderWriter.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Xml.XmlDocument.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Xml.XPath.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Xml.XPath.XDocument.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\vbc.exe
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\vbc.exe.config
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\vbc.rsp
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\VBCSCompiler.exe
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\VBCSCompiler.exe.config
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\obj\Debug\ProyectoWeb_Oscar.csproj.AssemblyReference.cache
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\obj\Debug\ProyectoWeb_Oscar.csproj.CoreCompileInputs.cache
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\obj\Debug\ProyectoWeb_Oscar.csproj.CopyComplete
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\obj\Debug\ProyectoWeb_Oscar.dll
+B:\proyectos_VS_Oscar\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\obj\Debug\ProyectoWeb_Oscar.pdb
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\ProyectoWeb_Oscar.dll.config
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\ProyectoWeb_Oscar.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\ProyectoWeb_Oscar.pdb
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\csc.exe
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\csc.exe.config
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\csc.rsp
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\csi.exe
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\csi.exe.config
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\csi.rsp
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.Managed.Core.targets
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.AppContext.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Collections.Immutable.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Console.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Globalization.Calendars.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.IO.Compression.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.IO.FileSystem.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Net.Http.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Net.Sockets.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Reflection.Metadata.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.ValueTuple.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Xml.XmlDocument.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Xml.XPath.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\vbc.exe
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\vbc.exe.config
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\vbc.rsp
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\VBCSCompiler.exe
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\VBCSCompiler.exe.config
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\obj\Debug\ProyectoWeb_Oscar.csproj.CoreCompileInputs.cache
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\obj\Debug\ProyectoWeb_Oscar.csproj.CopyComplete
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\obj\Debug\ProyectoWeb_Oscar.dll
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\obj\Debug\ProyectoWeb_Oscar.pdb
+C:\FASE3_OSCAR\PaginaWeb\ProyectoWeb_Oscar\obj\Debug\ProyectoWeb_Oscar.csproj.AssemblyReference.cache
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\obj\Debug\ProyectoWeb_Oscar.csproj.AssemblyReference.cache
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\obj\Debug\ProyectoWeb_Oscar.csproj.CoreCompileInputs.cache
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\obj\Debug\ProyectoWeb_Oscar.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\obj\Debug\ProyectoWeb_Oscar.pdb
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\ProyectoWeb_Oscar.dll.config
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\ProyectoWeb_Oscar.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\ProyectoWeb_Oscar.pdb
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\csc.exe
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\csc.exe.config
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\csc.rsp
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\csi.exe
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\csi.exe.config
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\csi.rsp
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.AppContext.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Console.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.IO.Compression.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Net.Http.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.ValueTuple.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\vbc.exe
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\vbc.exe.config
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\vbc.rsp
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\VBCSCompiler.exe
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Oscar\Desktop\Vásquez Rivas Oscar\PaginaWeb\ProyectoWeb_Oscar\obj\Debug\ProyectoWeb_Oscar.csproj.CopyComplete
